@@ -1,0 +1,9 @@
+<!DOCTYPE employee
+[
+<!ELEMENT employee (empno,empname,salary,band,date)
+<!ELEMENT empno (#PCDATA)>
+<!ELEMENT empname(#PCDATA)>
+<!ELEMENT salary(#PCDATA)>
+<!ELEMENT band(#PCDATA)>
+<!ELEMENT date(#PCDATA)>
+]>

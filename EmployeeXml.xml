@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmployeeXml 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Employee.xsd">
+<!DOCTYPE employee
+[
+<!ELEMENT employee (empno,empname,salary,band,date)>
+<!ELEMENT empno (#PCDATA)>
+<!ELEMENT empname (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT band (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+]>
+<employeedata>
+	<employee>
+		<empno>1</empno>
+		<empname>Visha</empname>
+		<salary>24300</salary>
+		<band>C</band>
+		<date>2019-11-06</date>
+	</employee>
+	<employee>
+		<empno>2</empno>
+		<empname>Sambavi</empname>
+		<salary>21000</salary>
+		<band>E</band>
+		<date>2009-01-16</date>
+	</employee>
+	<employee>
+		<empno>3</empno>
+		<empname>Moni</empname>
+		<salary>37900</salary>
+                <band>M</band>
+		<date>2012-08-03</date>
+	</employee>
+</employeedata>

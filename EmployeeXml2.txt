@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employeedata>
+	<employee empno="1" empname="Visha" salary="24300" band="C" date="2019-11-06"></employee>
+	<employee empno="2" empname="Sambavi" salary="21000" band="E"  date="2009-01-16"></employee>
+	<employee empno="3" empname="Moni" salary="37900" band="M" date="2012-08-03"></employee>
+</employeedata>
